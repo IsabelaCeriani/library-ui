@@ -7,6 +7,33 @@
   pointer-events: none;
 }
 
+.container {
+  /* Set a fixed width */
+  width: 80%;
+  /* Center the container horizontally */
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-top: 0px;
+  /* Add some padding */
+  padding: 20px;
+  /* Set a background color */
+  background-color: #f0f0f0;
+  /* Add a border */
+  border: 1px solid #ccc;
+  /* Add rounded corners */
+  border-radius: 5px;
+  /* Set text alignment */
+  text-align: center;
+  /* Specify font styles */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  /* Add box-shadow for depth */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
